@@ -1,0 +1,5 @@
+cd "C:\Users\sangm\OneDrive\Desktop\Major One"
+conda activate tbx-hybrid
+
+streamlit run deployment/app_streamlit.py
+

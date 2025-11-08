@@ -1,0 +1,23 @@
+name: tbx-hybrid
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch        # see note below for GPU/CPU specifics
+    - torchvision
+    - timm
+    - albumentations
+    - opencv-python
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - tqdm
+    - pillow
+    - segmentation-models-pytorch==0.3.2
+    - efficientnet-pytorch
+    - grad-cam
+    - tensorboard
+    - streamlit
